@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Asosiy sozlamalar -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Sayt nomi -->
+    <title>StayLux | Luxury Hotel Booking</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <nav class="navbar">
+
+                <a href="index.html" class="logo">
+                    Stay<span>Lux</span>
+                </a>
+
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/hotels.html">Hotels</a></li>
+                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+
+                <div class="nav-btns">
+                    <a href="pages/login.html" class="login-btn">Login</a>
+                    <a href="pages/booking.html" class="book-btn">Book Now</a>
+                </div>
+
+            </nav>
+
+        </div>
+    </header>
+    <section class="hero">
+    <div class="container">
+
+        <div class="hero-content">
+
+            <p class="subtitle">Luxury Hotel Experience</p>
+
+            <h1>
+                Find Your Perfect
+                <span>Stay</span>
+            </h1>
+
+            <p class="description">
+                Discover the finest luxury hotels and unforgettable
+                travel experiences around the world.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="pages/hotels.html" class="btn btn-primary">
+                    Explore Hotels
+                </a>
+
+                <a href="#" class="btn btn-secondary">
+                    Watch Video
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+    </section>
+    <section class="booking-search">
+    <div class="container">
+
+        <div class="search-box">
+
+            <div class="search-item">
+                <label>Location</label>
+                <input type="text" placeholder="Enter destination">
+            </div>
+
+            <div class="search-item">
+                <label>Check In</label>
+                <input type="date">
+            </div>
+
+            <div class="search-item">
+                <label>Check Out</label>
+                <input type="date">
+            </div>
+
+            <div class="search-item">
+                <label>Guests</label>
+                <input type="number" min="1" placeholder="2">
+            </div>
+
+            <button class="search-btn">
+                Search
+            </button>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="featured section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <p>Best Hotels</p>
+            <h2>Featured Hotels</h2>
+        </div>
+
+        <div class="hotel-grid">
+
+            <div class="hotel-card">
+                <img src="./assets/images/hotel1.jpg" alt="Hotel">
+
+                <div class="hotel-info">
+                    <h3>Royal Palace Hotel</h3>
+
+                    <p>📍 Tashkent, Uzbekistan</p>
+
+                    <span class="price">$180 / Night</span>
+
+                    <a href="pages/hotel-details.html" class="hotel-btn">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <img src="./assets/images/hotel2.jpg" alt="Hotel">
+
+                <div class="hotel-info">
+                    <h3>Hilton Resort</h3>
+
+                    <p>📍 Dubai, UAE</p>
+
+                    <span class="price">$250 / Night</span>
+
+                    <a href="pages/hotel-details.html" class="hotel-btn">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <img src="./assets/images/hotel3.jpg" alt="Hotel">
+
+                <div class="hotel-info">
+                    <h3>Grand Luxury</h3>
+
+                    <p>📍 Paris, France</p>
+
+                    <span class="price">$320 / Night</span>
+
+                    <a href="pages/hotel-details.html" class="hotel-btn">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+</body>
+
+<!-- JavaScript -->
+<script src="./assets/js/main.js"></script>
+
+</html>
