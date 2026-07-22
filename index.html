@@ -20,6 +20,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
                 </a>
 
                 <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="pages/hotels.html">Hotels</a></li>
                     <li><a href="pages/about.html">About</a></li>
                     <li><a href="pages/contact.html">Contact</a></li>
@@ -70,41 +71,42 @@
                     Explore Hotels
                 </a>
 
-                <a href="#" class="btn btn-secondary">
-                    Watch Video
-                </a>
+            <button id="watchVideo" class="btn watch-btn">
+                <i class="fa-solid fa-play"></i>
+                Watch Video
+            </button>
             </div>
 
         </div>
 
     </div>
     </section>
-    <section class="booking-search">
+<section class="booking-search">
     <div class="container">
 
         <div class="search-box">
 
             <div class="search-item">
                 <label>Location</label>
-                <input type="text" placeholder="Enter destination">
+                <input id="location" type="text" placeholder="Enter destination">
             </div>
 
             <div class="search-item">
                 <label>Check In</label>
-                <input type="date">
+                <input id="checkin" type="date">
             </div>
 
             <div class="search-item">
                 <label>Check Out</label>
-                <input type="date">
+                <input id="checkout" type="date">
             </div>
 
             <div class="search-item">
                 <label>Guests</label>
-                <input type="number" min="1" placeholder="2">
+                <input id="guests" type="number" min="1" placeholder="2">
             </div>
 
-            <button class="search-btn">
+            <button id="searchBtn" class="search-btn">
                 Search
             </button>
 
@@ -125,12 +127,12 @@
         <div class="hotel-grid">
 
             <div class="hotel-card">
-                <img src="./assets/images/hotel1.jpg" alt="Hotel">
+                <img src="./assets/images/hotel.jpg" alt="Hotel">
 
                 <div class="hotel-info">
                     <h3>Royal Palace Hotel</h3>
 
-                    <p>📍 Termiz, Uzbekistan</p>
+                    <p>📍 Toshkent, Uzbekistan</p>
 
                     <span class="price">$180 / Night</span>
 
@@ -141,7 +143,7 @@
             </div>
 
             <div class="hotel-card">
-                <img src="./assets/images/hotel2.jpg" alt="Hotel">
+                <img src="./assets/images/hotel1.jpg" alt="Hotel">
 
                 <div class="hotel-info">
                     <h3>Hilton Resort</h3>
@@ -157,7 +159,7 @@
             </div>
 
             <div class="hotel-card">
-                <img src="./assets/images/hotel3.jpg" alt="Hotel">
+                <img src="./assets/images/hotel2.jpg" alt="Hotel">
 
                 <div class="hotel-info">
                     <h3>Grand Luxury</h3>
@@ -260,45 +262,89 @@
 
         <div class="footer-grid">
 
-            <div class="footer-col">
-                <h2>Stay<span>Lux</span></h2>
+            <div class="footer-about">
+
+                <a href="../index.html" class="logo">
+                    Stay<span>Lux</span>
+                </a>
+
                 <p>
-                    Experience luxury, comfort and unforgettable
-                    stays with StayLux Hotel Booking.
+                    StayLux helps travelers discover luxury hotels
+                    with comfort, elegance, and unforgettable experiences
+                    around the world.
                 </p>
+
             </div>
 
-            <div class="footer-col">
+            <div class="footer-links">
+
                 <h3>Quick Links</h3>
 
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="pages/hotels.html">Hotels</a></li>
-                    <li><a href="pages/about.html">About</a></li>
-                    <li><a href="pages/contact.html">Contact</a></li>
+
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="hotels.html">Hotels</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
                 </ul>
+
             </div>
 
-            <div class="footer-col">
+            <div class="footer-contact">
+
                 <h3>Contact</h3>
 
                 <p>Email: info@staylux.com</p>
+
                 <p>Phone: +998 94 442 30 60</p>
-                <p>Location: Termiz, Uzbekistan</p>
+
+                <p>Location: Tashkent, Uzbekistan</p>
+
+            </div>
+
+            <div class="footer-social">
+
+                <h3>Follow Us</h3>
+
+                <div class="social-icons">
+
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                </div>
+
             </div>
 
         </div>
 
         <div class="footer-bottom">
-            © 2026 StayLux. All Rights Reserved.
+
+            <p>
+                © 2026 StayLux. All Rights Reserved.
+            </p>
+
         </div>
 
     </div>
 
 </footer>
+
+<div id="videoToast" class="video-toast">
+    🎬 Video Coming Soon!
+</div>
 </body>
 
 <!-- JavaScript -->
 <script src="./assets/js/main.js"></script>
+<script src="./assets/js/search.js"></script>
+<script src="./assets/js/backToTop.js"></script>
+<script src="./assets/js/home.js"></script>
+
 
 </html>

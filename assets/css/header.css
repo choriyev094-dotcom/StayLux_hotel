@@ -1,0 +1,92 @@
+/* ===========================
+   HEADER
+=========================== */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, .45);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255,.08);
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.logo span {
+    color: var(--gold);
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-menu a {
+    color: #fff;
+    font-weight: 500;
+    transition: .3s;
+    position: relative;
+} 
+
+.nav-menu a:hover,
+.nav-menu a.active{
+    color: var(--gold);
+}
+
+.nav-menu a.active::after{
+    width: 100%;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active{
+    color: var(--gold);
+}
+
+
+.nav-btns {
+    display: flex;
+    gap: 15px;
+}
+
+.login-btn,
+.book-btn {
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.login-btn {
+    border: 2px solid var(--gold);
+    color: var(--gold);
+}
+
+.login-btn:hover {
+    background: var(--gold);
+    color: #000;
+}
+
+.book-btn {
+    background: var(--gold);
+    color: #000;
+}
+
+.book-btn:hover {
+    transform:var(--gold-hover);
+    box-shadow: 0 10px 25px rgba(212, 175, 55, .35);
+}

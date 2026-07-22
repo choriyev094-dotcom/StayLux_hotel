@@ -1,0 +1,291 @@
+/* ==========================================
+   LAPTOP (1200px)
+========================================== */
+
+@media (max-width:1200px){
+
+    .container{
+        width:95%;
+    }
+
+}
+
+/* ==========================================
+   TABLET (992px)
+========================================== */
+
+@media (max-width:992px){
+
+    .navbar{
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+    .nav-menu{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+    .hero{
+
+        text-align:center;
+
+    }
+
+    .hero-content{
+
+        max-width:100%;
+
+    }
+
+    .hero h1{
+
+        font-size:54px;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+    }
+
+    .hotel-grid,
+    #hotelGrid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .booking-box{
+
+        padding:40px;
+
+    }
+
+}
+
+/* ==========================================
+   MOBILE (768px)
+========================================== */
+
+@media (max-width:768px){
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .header{
+
+        padding:15px 0;
+
+    }
+
+    .logo{
+
+        font-size:30px;
+
+    }
+
+    .nav-menu{
+
+        gap:15px;
+
+        flex-direction:column;
+
+    }
+
+    .nav-btns{
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+    .login-btn,
+    .book-btn{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .hero{
+
+        padding-top:140px;
+
+    }
+
+    .hero h1{
+
+        font-size:42px;
+
+    }
+
+    .description{
+
+        font-size:16px;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .hero-buttons a{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .section{
+
+        padding:70px 0;
+
+    }
+
+    .section-title h2{
+
+        font-size:34px;
+
+    }
+
+    .booking-box{
+
+        padding:30px;
+
+    }
+
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--white);
+}
+
+/* ==========================================
+   SMALL MOBILE (576px)
+========================================== */
+
+@media (max-width:576px){
+
+    .container{
+
+        width:92%;
+
+    }
+
+    .hero h1{
+
+        font-size:34px;
+
+    }
+
+    .subtitle{
+
+        font-size:13px;
+
+    }
+
+    .description{
+
+        font-size:15px;
+
+    }
+
+    .hotel-card{
+
+        padding:25px;
+
+    }
+
+    .hotel-card h2{
+
+        font-size:26px;
+
+    }
+
+    .hotel-bottom{
+
+        flex-direction:column;
+
+        gap:20px;
+
+        align-items:flex-start;
+
+    }
+
+    .booking-box{
+
+        padding:25px;
+
+    }
+
+    .booking-box h1{
+
+        font-size:34px;
+
+    }
+
+    .input-group input,
+    .input-group select{
+
+        height:50px;
+
+    }
+
+    .total-price{
+
+        font-size:24px;
+
+    }
+
+}
+
+/* ==========================================
+   EXTRA SMALL (400px)
+========================================== */
+
+@media (max-width:400px){
+
+    .hero h1{
+
+        font-size:28px;
+
+    }
+
+    .logo{
+
+        font-size:26px;
+
+    }
+
+    .section-title h2{
+
+        font-size:28px;
+
+    }
+
+    .hotel-card{
+
+        padding:20px;
+
+    }
+
+}

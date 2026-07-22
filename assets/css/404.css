@@ -1,0 +1,45 @@
+/* ==========================================
+   ERROR PAGE
+========================================== */
+
+.error-page{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+}
+
+.error-content h1{
+
+    font-size:140px;
+
+    color:var(--gold);
+
+}
+
+.error-content h2{
+
+    font-size:42px;
+
+    margin:20px 0;
+
+}
+
+.error-content p{
+
+    max-width:550px;
+
+    margin:0 auto 35px;
+
+    color:var(--gray);
+
+    line-height:1.8;
+
+}

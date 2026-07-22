@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookings | StayLux</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <a href="../index.html" class="logo">
+                Stay<span>Lux</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="hotels.html">Hotels</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-btns">
+
+                <a href="login.html" class="login-btn">
+                    Login
+                </a>
+
+                <a href="booking.html" class="book-btn">
+                    New Booking
+                </a>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<section class="booking-history">
+
+    <div class="container">
+
+        <h1>My Bookings</h1>
+
+        <div id="bookingList"></div>
+
+    </div>
+
+</section>
+
+<div id="toast" class="toast">
+    <span id="toastMessage"></span>
+</div>
+
+<button id="backToTop" class="back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/history.js"></script>
+<script src="../assets/js/backToTop.js"></script>
+
+</body>
+</html>

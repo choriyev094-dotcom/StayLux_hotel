@@ -1,0 +1,36 @@
+[
+  {
+    "id": 2,
+    "name": "Royal Palace Hotel",
+    "city": "Dubai",
+    "price": 180,
+    "rating": 4.9,
+    "image": "hotel.jpg",
+    "location": "Termiz"
+  },
+  {
+    "id": 3,
+    "name": "Royal Palace Hotel",
+    "city": "Paris",
+    "price": 180,
+    "rating": 4.9,
+    "image": "hotel.jpg",
+    "location": "Termiz"
+  },
+  {
+    "id": 1784747211006,
+    "name": "InterContinental",
+    "city": "Tashkent",
+    "price": 280,
+    "rating": 5,
+    "image": "hotel4.jpg"
+  },
+  {
+    "id": 1784751924874,
+    "name": "Royal Palace Hotel",
+    "location": "Termiz",
+    "price": 180,
+    "rating": 4.9,
+    "image": "hotel.jpg"
+  }
+]
